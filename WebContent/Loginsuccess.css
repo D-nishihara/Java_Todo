@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.flexbox{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+heder{
+}
+.flexheader{
+	display: flex;
+	height:400px;
+}
+.headertitle{
+	flex: 0 230px;
+	font-size:40px;
+	font-weight:bold;
+}
+.headermain{
+	flex: 1;
+	margin: 10px auto;
+}
+.headeruser{
+	flex: 0 160px;
+}
+
+.flexcontents{
+	display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tablelayout{
+	width: 100%;
+	text-align: center;
+}
+
+table{
+}

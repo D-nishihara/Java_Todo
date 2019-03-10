@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>UserconfirmationServlet</servlet-name>
+		<servlet-class>jp.co.controller.todo.Userconfirmation</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UsertaskdeleteServlet</servlet-name>
+		<servlet-class>jp.co.controller.todo.Usertaskdelete</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UsertaskeditServlet</servlet-name>
+		<servlet-class>jp.co.controller.todo.Usertaskedit</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UsercreatenewaccountServlet</servlet-name>
+		<servlet-class>jp.co.controller.todo.Usercreatenewaccount</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UsertaskaddServlet</servlet-name>
+		<servlet-class>jp.co.controller.todo.Usertaskadd</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserconfirmationServlet</servlet-name>
+		<url-pattern>/todoconfirmation</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UsertaskdeleteServlet</servlet-name>
+		<url-pattern>/tododelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UsertaskeditServlet</servlet-name>
+		<url-pattern>/todoedit</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UsercreatenewaccountServlet</servlet-name>
+		<url-pattern>/todousercreatenewaccount</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UsertaskaddServlet</servlet-name>
+		<url-pattern>/usertaskadd</url-pattern>
+	</servlet-mapping>
+</web-app>
